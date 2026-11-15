@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73f3d3231fbe8ab4ab23f404a79a1b46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NailBalance.PuzzleDefinition
+  title: "\u0412\u043D\u0443\u0442\u0440\u0438 V"
+  hint: "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439 \u043E\u0431\u0430 \u0441\u043A\u043B\u043E\u043D\u0430 \u043E\u043F\u043E\u0440\u044B"
+  supportPrefab: {fileID: 8766287908285178896, guid: b0cf0c26b4d41c64cbe90011bec4a67e, type: 3}
+  pedestalTop: -0.47
+  supportWidth: 3.4
+  timeLimit: 55
+  nails:
+  - length: 1
+    mass: 1
+    initialAngle: 90
+  - length: 1
+    mass: 1
+    initialAngle: 45
+  - length: 1
+    mass: 1
+    initialAngle: -90
+  - length: 1
+    mass: 1
+    initialAngle: -45
+  - length: 1
+    mass: 1
+    initialAngle: 90
+  background: {r: 0.94509804, g: 0.93333334, b: 0.9647059, a: 1}
+  supportColor: {r: 0.52156866, g: 0.39607844, b: 0.69411767, a: 1}

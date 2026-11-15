@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73f3d3231fbe8ab4ab23f404a79a1b46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NailBalance.PuzzleDefinition
+  title: "\u0422\u0438\u0445\u0438\u0435 \u043A\u0430\u0447\u0435\u043B\u0438"
+  hint: "\u041E\u043F\u043E\u0440\u0430 \u043A\u0430\u0447\u0430\u0435\u0442\u0441\u044F \u2014 \u0441\u0442\u0440\u043E\u0439 \u0431\u043B\u0438\u0436\u0435 \u043A \u0446\u0435\u043D\u0442\u0440\u0443"
+  supportPrefab: {fileID: 8331946719368535008, guid: 8587f20708312dd45b323d59ec20a35f, type: 3}
+  pedestalTop: 0
+  supportWidth: 2.65
+  timeLimit: 55
+  nails:
+  - length: 1
+    mass: 1
+    initialAngle: 90
+  - length: 0.88
+    mass: 0.8
+    initialAngle: 45
+  - length: 1.12
+    mass: 1.35
+    initialAngle: -90
+  - length: 0.94
+    mass: 0.9
+    initialAngle: -45
+  - length: 1.04
+    mass: 1.15
+    initialAngle: 90
+  background: {r: 0.94509804, g: 0.93333334, b: 0.9647059, a: 1}
+  supportColor: {r: 0.52156866, g: 0.39607844, b: 0.69411767, a: 1}
